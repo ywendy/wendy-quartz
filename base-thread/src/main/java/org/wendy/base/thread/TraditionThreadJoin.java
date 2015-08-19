@@ -10,6 +10,8 @@ public class TraditionThreadJoin {
 		t1.join();// 注释掉此行，则t1线程会被t2线程的运行结果打乱，即：t2 的结果会和t1 的结果混合
 		t2.start();
 		t2.join();
+		
+		//test 
 
 	}
 
